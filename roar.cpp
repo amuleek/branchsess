@@ -24,4 +24,19 @@ void Box::setLength( double len ) {
 }
 void Box::setBreadth( double bre ) {
    breadth = bre;
+
 }
+void Box::setHeight( double hei ) {
+   height = hei;
+}
+
+// Main function for the program
+int main() {
+   Box Box1;                // Declare Box1 of type Box
+   Box Box2;                // Declare Box2 of type Box
+   double volume = 0.0;     // Store the volume of a box here
+
+   // box 1 specification
+   Box1.setLength(6.0);
+   Box1.setBreadth(7.0);
+   Box1.setHeight(5.0);
