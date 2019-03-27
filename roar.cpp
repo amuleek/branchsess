@@ -14,3 +14,14 @@ class Box {
       void setBreadth( double bre );
       void setHeight( double hei );
 };
+// Member functions definitions
+double Box::getVolume(void) {
+   return length * breadth * height;
+}
+
+void Box::setLength( double len ) {
+   length = len;
+}
+void Box::setBreadth( double bre ) {
+   breadth = bre;
+}
